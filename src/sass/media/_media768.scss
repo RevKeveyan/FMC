@@ -1,0 +1,85 @@
+@media (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .promo{
+        &__titles{
+            max-width: 400px;
+            h1{
+                font-size: 25px;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+    .prengi{
+        &__ithems{
+            grid-template-columns:300px;
+        }
+        &__title{
+            top:-15%;
+            margin-top: 0;
+        }
+    }
+    .benefits{
+        &__ithems{
+            grid-template-columns:auto; 
+            row-gap: 10px;
+        }
+        &__wrapper{
+            padding: 50px 0;
+            max-width: 400px;
+            max-height: 200px;
+        }
+        &__descr{
+            max-height: 100px;
+        }
+        &__text{
+            padding-top: 10px;
+        }
+    }
+
+    .data{
+        &__wrapper{
+            &:last-child{
+                &::before{
+                    content:'';
+                    position: absolute;
+                    width: 120%;
+                    height: 150%;
+                    background-color: #00c0f049;
+                    right: 0;
+                    top: -15px
+                    
+                }
+            }
+            &:first-child{
+                &::before{
+                    content:'';
+                    position: absolute;
+                    width: 120%;
+                    height: 150%;
+                    background-color: #00c0f049;
+                    left:0;
+                    top: -15px
+                    
+                }
+            }
+           
+        
+        }
+    }
+    .footer{
+        &__wrapper{
+            grid-template-columns:auto;
+            padding: 0 10px;
+            ul{
+                padding: 0;
+            }
+        }
+    }
+}

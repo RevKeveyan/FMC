@@ -1,0 +1,82 @@
+@media (max-width: 576px){
+    .container
+    {
+        max-width: 100%;
+       
+    }
+    .header{
+        &__country{
+            justify-content: center;
+        }
+    }
+    .promo{
+        
+        &__titles{
+            h1{
+                font-size: 15px;
+            }
+            h2{
+                font-size: 25px;
+            }
+        }
+    }
+
+    .benefits{
+        &__ithems{
+            grid-template-columns:auto; 
+            row-gap: 10px;
+        }
+        &__wrapper{
+            padding: 50px 0;
+            max-width: 300px;
+            max-height: 200px;
+        }
+        &__descr{
+            max-height: 100px;
+        }
+        &__text{
+            font-size: 18px;
+            max-width: 300px;
+        }
+    }
+
+    .data{
+        &__ithems{
+            grid-template-columns: auto;
+            row-gap: 50px;
+            &::before{
+                content:'';
+                position: absolute;
+                width: 100%;
+                height: 80%;
+                background-color: #00c0f049;
+                
+            }
+
+    }
+    &__wrapper{
+        padding-top: 10px;
+        &:last-child{
+            text-align: center;
+            &::before{
+                display: none;
+            }
+        }
+        &:first-child{
+            text-align: center;
+            &::before{
+                display: none;
+            }
+        }
+
+    }
+}
+    .access{
+        height: 500px;
+        &__menu{
+            display: none;
+           
+        }
+    }
+ 
+}

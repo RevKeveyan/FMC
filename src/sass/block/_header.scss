@@ -1,0 +1,31 @@
+.header{
+    padding: 20px 0;
+    &__country{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 180px);
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 30px auto;
+        column-gap: 11px;
+
+    }
+    &__descr{
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+        a{
+        color: #242424;
+        text-decoration: none;
+        cursor: pointer;
+        }
+        b{
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}

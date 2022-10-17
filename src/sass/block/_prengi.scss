@@ -1,0 +1,35 @@
+.prengi{
+    padding: 80px 0;
+    min-height:850px;
+    &__ithems{
+        display: grid;
+        grid-template-columns: repeat(3,360px);
+        grid-template-rows: 260px;
+        grid-auto-rows: 260px;
+        justify-content: center;
+        text-align: center;
+        column-gap: 30px;
+        margin-top: 230px;
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+    &__descr{
+        min-height:40px;
+    
+        
+    }
+    &__wrapper{
+        background:url('../icons/prengi/icbg1.png');
+        
+    }
+    &__title{
+        margin-top: 50px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__container{
+        position: relative;
+    }
+}

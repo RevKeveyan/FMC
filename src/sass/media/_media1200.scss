@@ -1,0 +1,49 @@
+@media (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .promo{
+        &__menu{
+            max-width: 90%;
+        }
+    }
+    .prengi{
+        &__ithems{
+            grid-template-columns: repeat(3,300px);
+            &:first-child{
+                margin-top: 230px;
+            }
+            &:last-child{
+                margin-top: 30px;
+            }
+    
+        }
+        &__title{
+            margin-top: -450px;
+        }
+    }
+    .benefits{
+        &__ithems{
+            grid-template-columns: repeat(2,auto); 
+        }
+        &__wrapper{
+            max-width: 400px;
+            max-height: 250px;
+        }
+        &__descr{
+            max-height: 100px;
+        }
+        &__text{
+            padding-top: 10px;
+        }
+    }
+    .access{
+        &__menu{
+            ul{
+                li{
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}

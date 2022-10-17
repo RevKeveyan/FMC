@@ -1,0 +1,113 @@
+.promo{
+    position: relative;
+    padding: 0 20px;
+    height: 700px;
+    background:url('../img/background/main_bg.jpg') center (center/cover) no-repeat;
+    /* .slick-dots{
+       top:0;
+       li{
+        .slick-active{
+            background-color:#ffffff;
+            color:#ffffff;
+            button{
+                
+            &:before{
+                position: absolute;
+                color:#ffffff;
+                opacity: 1;
+               
+            }
+        }
+        }
+        
+       }
+        button{
+            &::before{
+                font-size: 60px;
+                color:#ffffff;
+                opacity: 0.2;
+
+            }
+            &:hover{
+                color:#ffffff;
+            }
+        }
+        
+    }
+    &__slider{
+        z-index: -1;
+    }
+    .slider{
+        &__inner{
+            height: 700px;
+           
+        }
+    } */
+    .hamburger{
+        display: none;
+    }
+    &__titles{
+        position: absolute;
+        height: 200px;
+        max-width: 530px;
+        top: 50%;
+        transform: translateY(-50%);
+        h2{
+            color: #ffffff;
+            font-size: 42px;
+            font-weight: 400;
+            line-height: 48px;
+            text-align: left;
+            margin-bottom: 27px;
+        }
+        h1{
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: left;
+            margin-bottom: 39px;
+
+        }
+    }
+    /* &__fixed{
+        height: 569px;
+        width: 434px;
+        position: absolute;
+        bottom: -1px;
+        right: 18%;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    } */
+    &__menu{
+        position: absolute;
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        min-width:80%;
+
+        
+        &__ithems{
+            width: 550px;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 17%;
+
+            
+        }
+        &__link{
+           a{
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 26px;
+            text-align: right;
+            text-transform: uppercase;
+           }
+        }
+        
+    }
+}
